@@ -75,6 +75,8 @@ chercher  tous les script d'un dossier R  et sa documentation
 
 
 
+
+
 ```{r}
 path_to_fastqs <- here::here("data", "raw")
 ```
