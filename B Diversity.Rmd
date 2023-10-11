@@ -1,0 +1,25 @@
+---
+title: "R Notebook"
+output: github_document
+---
+
+```{r}
+library(phyloseq)
+library(ggplot2)
+library(dplyr)
+devtools::load_all(path="course-material-main/R")
+```
+```{r}
+output_beta <- here::here("outputs", "beta_diversity")
+if (!dir.exists(output_beta)) dir.create(output_beta, recursive = TRUE)
+```
+
+```{r}
+physeq <- readRDS(here::here("data",
+                             "asv_table",
+                             "phyloseq_object_alpha_beta_div.rds"))
+```
+```{r}
+
+```
+
